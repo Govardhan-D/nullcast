@@ -7,5 +7,41 @@ header {
   background: white;
   height: 117px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+header ul li {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+header ul li .btn {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 16px;
+}
+header ul li .black-btn {
+  background-color: #1b1b1b;
+  color: white;
+}
+header ul li .white-btn {
+  background-color: white;
+  color: black;
+  border-color: #1b1b1b;
+  border-width: 2px;
+  border-style: solid;
 }/*# sourceMappingURL=style.css.map */
