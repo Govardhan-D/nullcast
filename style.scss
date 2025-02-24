@@ -3,15 +3,20 @@
     padding: 0;  
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+body{
+    font-family: "Roboto", serif;
+}
 header{
     background: white;
     height: 117px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-left: 144px;
-    padding-right: 144px;
-
+    padding-left: 72px;
+    padding-right: 72px;
+    
     ul{
         display: flex;
         flex-direction: row;
@@ -50,5 +55,64 @@ header{
             }
         }
     }
+}
+
+
+
+.hero{
+    margin-left: 72px;
+    margin-right: 72px;
+    
+    background-color: #102364;
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    height: 469px;
+
+    .text-content{
+        width: 685px;
+        height: 218px;
+        text-wrap: wrap;
+        h1{
+            font-weight: 900;
+            font-size: 64px;
+            color: white;
+            line-height: 60px;
+        }
+    
+        p{
+            font-weight: 900;
+            font-size: 18px;
+            color: white;
+            line-height: 25px;
+            margin-top: 5px;
+        }
+    }
+
+    
+}
+
+.creative-bar{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    .creative-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 318px;
+    }
+
+}
+
+
+.timeline-container{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
 }
 
