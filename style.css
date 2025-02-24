@@ -94,9 +94,97 @@ header ul li .white-btn {
   justify-content: space-between;
   height: 318px;
 }
-
-.timeline-container {
+.creative-bar .creative-left .timeline-container {
   display: flex;
   gap: 1em;
+  justify-content: flex-start;
+}
+.creative-bar .creative-left .timeline-container .timeline-box {
+  width: 62px;
+  height: 62px;
+  background-color: #CCCFDB;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  border-width: 1px;
+  border-color: #CCCFDB;
+  border-style: solid;
+  border-radius: 5px;
+}
+.creative-bar .creative-left .timeline-container .timeline-box .digit-box {
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+}
+.creative-bar .creative-left .timeline-container .timeline-box .text-box {
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #848484;
+}
+.creative-bar .creative-left .date-time {
+  font-weight: 900;
+  font-size: 18px;
+}
+.creative-bar .creative-left p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.gallery #gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 3em;
+}
+.gallery #gallery-container .gallery-item {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.gallery #gallery-container .gallery-item img {
+  border-radius: 5px;
+}
+.gallery #gallery-container .gallery-item p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.gallery #gallery-container .gallery-item div {
+  font-weight: 700;
+  font-size: 18px;
+}
+.gallery a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  width: 285px;
+  height: 70px;
+  display: flex;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+  color: #F13E5D;
+  background-color: #EDEDED;
+  border-width: 1px;
+  border-color: #1C1C1D;
+  border-style: solid;
+  border-radius: 5px;
+}
+.gallery a:hover {
+  border-bottom: 5px #1C1C1D solid;
 }/*# sourceMappingURL=style.css.map */
