@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+  height: 117px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
