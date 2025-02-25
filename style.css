@@ -187,4 +187,140 @@ header ul li .white-btn {
 }
 .gallery a:hover {
   border-bottom: 5px #1C1C1D solid;
+}
+
+.promo-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe44d;
+  border-radius: 15px;
+  padding: 30px 20px 60px;
+  margin-top: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promo-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #0c2431;
+  -webkit-clip-path: ellipse(50% 60% at 50% 100%);
+          clip-path: ellipse(50% 60% at 50% 100%);
+}
+
+.title {
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  color: #f04d7a;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.highlight-strip {
+  background-color: #ffcc00;
+  padding: 8px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: rotate(-2deg);
+  font-size: 50px;
+  font-weight: 900;
+  transform: rotate(-2deg);
+}
+
+.description {
+  max-width: 60%;
+  color: #0c2431;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hashtags {
+  color: #0c2431;
+  font-weight: bold;
+}
+
+.announcement {
+  color: #f04d7a;
+}
+
+.duck-image {
+  width: 370px;
+  height: 370px;
+}
+
+.cta-button {
+  width: 350px;
+  /* Position at the intersection */
+  padding: 15px;
+  background-color: #f04d7a;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  z-index: 10;
+  justify-self: flex-end;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 961px;
+  width: 100vw;
+  background-color: #0B2A2B;
+}
+Footer h1 {
+  font-weight: 900;
+  font-size: 64px;
+  color: white;
+}
+Footer form {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: #626262 3px solid;
+}
+Footer form input {
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+Footer form button {
+  outline: none;
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 10px;
+  background-color: #F13E5D;
 }/*# sourceMappingURL=style.css.map */
