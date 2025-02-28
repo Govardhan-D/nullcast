@@ -8,185 +8,233 @@
     <title>NullCast</title>
 </head>
 <body>
-    <Header>
-        <nav>
-            <ul>
-                <li><a href="#">What the ducks?</a></li>
-                <li><a href="#">Curriculum</a></li>
-                <li><a href="#">Leaderboard</a></li>
-                <li><a href="#">Write</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#" class="btn black-btn">Login</a></li>
-                <li><a href="#" class="btn white-btn">Donate</a></li>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">What the ducks?</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Curriculum</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Leaderboard</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Write</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Community</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link button button--black">Login</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link button button--white">Donate</a></li>
             </ul>
         </nav>
-    </Header>
+    </header>
     <section class="hero">
-
-        <div class="text-content">
-            <h1>Nullcast is a Series of Events</h1>
-            <p>Get the latest scoop from the world of development<br/> with the latest news, hacks, tricks, and more on<br /> javascript, machine learning, enterprise architecture<br /> and more...</p>
+        <div class="hero__content">
+            <h1 class="hero__title">Nullcast is a Series of Events</h1>
+            <p class="hero__text">Get the latest scoop from the world of development<br/> with the latest news, hacks, tricks, and more on<br /> javascript, machine learning, enterprise architecture<br /> and more...</p>
         </div>
-        <img src="assets/hero.png" width="572px" height="334px">
+        <img class="hero__image" src="assets/hero.png" width="572" height="334" alt="Hero image">
     </section>
-    <section class="creative-bar">
-        <img src="assets/tiller.png" width="380px" height="318px">
-        <div class="creative-left">
-            <h1>Creative Search Bar and Input Field Design <br/>Inspiration</h1>
-            <div class="timeline-container">
-
-                <div class="timeline-box">
-                    <div class="digit-box">15</div>
-                    <div class="text-box">days</div>
+    <section class="creative">
+        <img class="creative__image" src="assets/tiller.png" width="380" height="318" alt="Tiller image">
+        <div class="creative__content">
+            <h1 class="creative__title">Creative Search Bar and Input Field Design <br/>Inspiration</h1>
+            <div class="timeline">
+                <div class="timeline__box">
+                    <div class="timeline__digit">15</div>
+                    <div class="timeline__label">days</div>
                 </div>
-                <div class="timeline-box">
-                    <div class="digit-box">07</div>
-                    <div class="text-box">hours</div>
+                <div class="timeline__box">
+                    <div class="timeline__digit">07</div>
+                    <div class="timeline__label">hours</div>
                 </div>
-                <div class="timeline-box">
-                    <div class="digit-box">56</div>
-                    <div class="text-box">minutes</div>
+                <div class="timeline__box">
+                    <div class="timeline__digit">56</div>
+                    <div class="timeline__label">minutes</div>
                 </div>
-                <div class="timeline-box">
-                    <div class="digit-box">14</div>
-                    <div class="text-box">sec</div>
+                <div class="timeline__box">
+                    <div class="timeline__digit">14</div>
+                    <div class="timeline__label">sec</div>
                 </div>
             </div>
-            <div class="date-time">
-                <i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm
+            <div class="event-info">
+                <div class="event-info__datetime">
+                    <i class="lni lni-calendar-days event-info__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch event-info__icon"></i> 1:30pm
+                </div>
+                <div class="event-info__location">
+                    <i class="lni lni-map-marker-5 event-info__icon"></i>Trivandrum
+                </div>  
             </div>
-            <div class="date-time">
-                <i class="lni lni-map-marker-5"></i>Trivandrum
-            </div>  
-            <p>We host regular jam sessions for our coder community on a variety of topics ranging from<br> serverless to open source and everything in between.</p>
+            <p class="creative__description">We host regular jam sessions for our coder community on a variety of topics ranging from<br> serverless to open source and everything in between.</p>
         </div>
     </section>
     <section class="gallery">
-        <div id="gallery-container">
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+        <div class="gallery__container">
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-
-            
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://picsum.photos/349/370">
-                <p>Creative Search Bar and Input Field Design...</p>
-                <div><i class="lni lni-calendar-days"></i> Feb 26,2021 <i class="lni lni-stopwatch"></i> 1:30pm</div>
-                <div><i class="lni lni-map-marker-5"></i>Trivandrum, India</div>
-    
+            <div class="gallery__item">
+                <img class="gallery__image" src="https://picsum.photos/349/370" alt="Gallery image">
+                <p class="gallery__title">Creative Search Bar and Input Field Design...</p>
+                <div class="gallery__datetime">
+                    <i class="lni lni-calendar-days gallery__icon"></i> Feb 26,2021 
+                    <i class="lni lni-stopwatch gallery__icon"></i> 1:30pm
+                </div>
+                <div class="gallery__location">
+                    <i class="lni lni-map-marker-5 gallery__icon"></i>Trivandrum, India
+                </div>
             </div>
         </div>
-        <a href="#">LOAD MORE</a>
-
-
+        <a href="#" class="gallery__load-more">LOAD MORE</a>
     </section>
-    <div class="promo-container">
-        <h1 class="title">Want #Swag?</h1>
-        <div class="highlight-strip">JOIN OUR MONTHLY RAFFLE!</div>
+    <section class="promo">
+        <h1 class="promo__title">Want #Swag?</h1>
+        <div class="promo__highlight">JOIN OUR MONTHLY RAFFLE!</div>
         
-        <div class="content-area">
-            <p class="description">
-                One Lucky Duck gets free swag shipped to their doorstep, wherever in the world you are! All you have to do is join our Discord channel today and tweet about the amazing things we do. <span class="hashtags">#nullcast #luckyduck<br/></span> <span class="announcement">We will announce the winners on Twitter and through our discord channel.</span>
+        <div class="promo__content">
+            <p class="promo__description">
+                One Lucky Duck gets free swag shipped to their doorstep, wherever in the world you are! All you have to do is join our Discord channel today and tweet about the amazing things we do. 
+                <span class="promo__hashtags">#nullcast #luckyduck<br/></span> 
+                <span class="promo__announcement">We will announce the winners on Twitter and through our discord channel.</span>
             </p>
             
-            <img src="assets/duck.png" alt="Yellow Rubber Duck" class="duck-image">
+            <img src="assets/duck.png" alt="Yellow Rubber Duck" class="promo__image">
         </div>
         
-        <button class="cta-button">JOIN OUR COMMUNITY</button>
-    </div>
-    <div class="footer_banner">
-        <div class="triangle"></div>
-        <div class="footer_banner__subscribe"><h3>Subscribe Our Newsletter </h3></div>
-        <div class="form-container">
-          <input type="email" class="email-input" placeholder="Enter your mail">
-          <button class="subscribe-button">Subscribe</button>
+        <button class="promo__button">JOIN OUR COMMUNITY</button>
+    </section>
+    <footer class="footer">
+        <div class="footer__triangle"></div>
+        <div class="footer__subscribe-title"><h3>Subscribe Our Newsletter </h3></div>
+        <div class="footer__form">
+          <input type="email" class="footer__input" placeholder="Enter your mail">
+          <button class="footer__button">Subscribe</button>
         </div>
-        <div class="footer_banner__list">
-          <ul>
-            <li>WHAT THE DUCKS?</li>
-            <li>CURRICULUM</li>
-            <li>LEADERBOARD</li>
-            <li>COMMUNITY</li>
+        <div class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">WHAT THE DUCKS?</li>
+            <li class="footer__nav-item">CURRICULUM</li>
+            <li class="footer__nav-item">LEADERBOARD</li>
+            <li class="footer__nav-item">COMMUNITY</li>
           </ul>
         </div>
-        <div class="footer_banner__social_media"><img src="./assets/social_media.png" alt="" class="social_media_icons"></div>
-        <hr style="border: 2px solid rgb(67, 64, 64); width: 50%; margin-top: 300px;width: 90%;">
-        <h6>Made with ❤️ by Neoito Ducks</h6>
-    </div>
+        <div class="footer__social">
+            <img src="./assets/social_media.png" alt="Social media icons" class="footer__social-icons">
+        </div>
+        <hr class="footer__divider">
+        <h6 class="footer__copyright">Made with ❤️ by Neoito Ducks</h6>
+    </footer>
 </body>
 </html>
